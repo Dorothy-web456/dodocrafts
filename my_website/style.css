@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 40px; /* adds space inside nav on the right */
 }
 
 nav ul {
@@ -60,7 +61,7 @@ nav a {
   margin: 10px;
   padding: 12px 20px;
   border: none;
-  background: #d35400;
+  background: #8e491b;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
@@ -80,6 +81,12 @@ nav a {
   padding: 20px;
 }
 
+/* Gallery header */
+h2 {
+  margin-left: 40px;   /* pushes the heading 40px away from the left edge */
+  margin-top: 40px;   /* space above */
+  margin-bottom: 20px; /* space below */
+}
 .painting {
   background: #fff;
   padding: 10px;
@@ -90,6 +97,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .painting:hover {
